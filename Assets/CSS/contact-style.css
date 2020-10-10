@@ -1,0 +1,36 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+h1 {
+    border-bottom: 2px solid grey;
+    padding: 10px;
+}
+
+main {
+    height: auto;
+    border: 5px black;
+    margin-top: 80px;
+    margin-left: 60px;
+    background-color: white;
+    width: fit-content;
+}
+
+form {
+    padding-right: 15%;
+    padding:20px;
+    width: auto;
+}
+
+.footer {
+    position: absolute;
+    bottom: auto;
+    width: 100%;
+    height: 60px;
+    color: rgb(154, 74, 165);
+    background-color: lightgray;
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px 20px 10px 20px;    
+}

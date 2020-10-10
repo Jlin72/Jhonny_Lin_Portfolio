@@ -1,0 +1,30 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+main {
+    margin: 20px 40px 20px 20px;
+    padding: 20px 20px 20px 20px;
+    background: white;
+    width: fit-content;
+    height: fit-content;
+}
+
+h1 {
+    padding: 20px;
+    margin-left: 20px;
+}
+
+img {
+    padding: 20px;
+}
+
+.footer {
+    color: rgb(154, 74, 165);
+    background-color: lightgray;
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px 20px 10px 20px;    
+}
+
