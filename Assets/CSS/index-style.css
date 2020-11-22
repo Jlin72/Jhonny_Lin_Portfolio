@@ -3,12 +3,13 @@ body {
     background-image: url(https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 }
 
-.about {
+#about {
     display: inline-block;
     border: 5px solid rgb(255, 255, 255);
-    margin: 5% 0 0 0;
+    margin: 5% 8% 0 0;
     padding: 20px;
     height: auto;
+    width: auto;
     background-color: white;
     color: black;
     text-align: justify;
@@ -36,3 +37,10 @@ img {
     padding: 20px 20px 10px 20px;    
 }
 
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{  display:block; opacity: 0;  visibility: hidden; transition:.3s; margin-top:0;  }
+	.navbar .nav-item:hover .nav-link{ color: #fff;  }
+	.navbar .dropdown-menu.fade-down{ top:80%; transform: rotateX(-75deg); transform-origin: 0% 0%; }
+	.navbar .dropdown-menu.fade-up{ top:180%;  }
+	.navbar .nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
+}		
