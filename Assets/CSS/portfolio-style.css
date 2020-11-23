@@ -40,3 +40,8 @@ img {
     height: 350px;
     width: 350px;
 }
+
+#portfolio1link {
+    display: flex;
+    justify-content: space-between;
+}
