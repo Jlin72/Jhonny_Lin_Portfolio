@@ -3,6 +3,12 @@ body {
     background-image: url(https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 }
 
+main {
+    min-height: 400px;
+    margin-bottom: 100px;
+    clear: both;
+}
+
 #about {
     display: inline-block;
     border: 5px solid rgb(255, 255, 255);
@@ -25,6 +31,11 @@ img {
     height: 200px;
 }
 
+#resume {
+    margin: 5% 0 0 0;
+    text-align: left;
+}
+
 .footer {
     position: fixed;
     bottom: 0px;
@@ -37,10 +48,10 @@ img {
     padding: 20px 20px 10px 20px;    
 }
 
-@media all and (min-width: 992px) {
+/* @media all and (min-width: 992px) {
 	.navbar .nav-item .dropdown-menu{  display:block; opacity: 0;  visibility: hidden; transition:.3s; margin-top:0;  }
 	.navbar .nav-item:hover .nav-link{ color: #fff;  }
 	.navbar .dropdown-menu.fade-down{ top:80%; transform: rotateX(-75deg); transform-origin: 0% 0%; }
 	.navbar .dropdown-menu.fade-up{ top:180%;  }
 	.navbar .nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
-}		
+}		 */
