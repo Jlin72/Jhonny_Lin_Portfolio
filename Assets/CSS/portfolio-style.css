@@ -10,6 +10,9 @@ main {
     background: white;
     width: fit-content;
     height: fit-content;
+    min-height: 400px;
+    margin-bottom: 100px;
+    clear: both;
 }
 
 h1 {
@@ -33,3 +36,7 @@ img {
     padding: 20px 20px 10px 20px;    
 }
 
+#passwordphoto {
+    height: 350px;
+    width: 350px;
+}
