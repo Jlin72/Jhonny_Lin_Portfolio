@@ -2,6 +2,9 @@
 Hello!
 Welcome to my portfolio. This repository was created with the sole intention of having all the files required for my portfolio to work on github pages.
 
+# Link to the deployed site
+Click on the link to go to the deployed website: https://jlin72.github.io/Jhonny_Lin_Portfolio/
+
 # Portfolio progress
 This portfolio is still in progress and content will be added or changed as I spend more time learning coding and developing new websites. All of which, will be added to the website for other people to see.
 
