@@ -8,9 +8,10 @@
         <link rel="stylesheet" href="Assets/CSS/reset.css">
         <link rel="stylesheet" href="Assets/CSS/index-style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-info">
             <a class="navbar-brand" href="index.html">Jhonny Lin</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -20,6 +21,7 @@
               <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item active">
                   <a class="nav-link" href="index.html">Home</a>
+                  </div>
                 </li>
                 <li class="nav-item active">
                   <a class="nav-link" href="portfolio.html">Portfolio</a>
@@ -33,16 +35,69 @@
     
         <main>
             <article>
-                    <section class="about">
-                      <section class="row">
-                        <h1 class="col-md-12">About me</h1>
-                      </section>
-                      <section class="row">
-                        <section class="col-md-12">
-                          <img class="img img-thumbnail left" src="Assets/Images/41776900_10217425199123139_8272663846015991808_o.jpg" alt="me going super saiyan"/>
-                          <p>Hello, my name is Jhonny Feng Lin Weng. I was born on Guayaquil, Ecuador. I am currently residing in Mississauga, Canada. I first arrived on Canada on 2014 to start my university edeucation at University of Toronto Mississauga. On 2019, I graduated with a degree on Anthropology, with a stronger focus on the scientific aspect of Anthropology. Currently, I am working as a field archaeologist. Also, I am taking classes about full-stack web developing.</p>
-                        </section>
-                      </section>
+                    <section>
+                      <!-- About me card -->
+                        <div class ="container">
+                          <div class="row">
+                            <div class="card col-md-9" id="about">
+                              <div class="card-body">
+                                <h1>About me</h1>
+                                <img class="img img-thumbnail left" src="Assets/Images/New_Profile.jpg" alt="me going super saiyan" id="aboutmeimg"/>
+                                <p>
+                                  Hello nice to meet you and welcome to my online portfolio, <br><br>
+                                  My name is Jhonny Lin and I was born in Ecuador on 1996. I am a graduate from the University of Toronto with a degree on Anthropology. Currently, I am working 
+                                  as an archaeologists. In addition, I am also learning full stack web development from University of Toronto school of continuing studies. On this web
+                                  portfolio you will be able to see some of the work I have done while I was a student of full stack web development. <br>
+                                  If you are interested in checking some of the things I have done feel free to click on the portfolio tab. If my work has caught your eye feel free to check my resume,
+                                  and contacting me. You can try contacting me by sending me an email to <a id="aboutmemail" href="mailto:jhonnylin72@gmail.com">jhonnylin72@gmail.com</a>. In addition, you can check my linkedin profile!
+                                </p>
+                              </div>
+                            </div>
+                            <!-- Resume card -->
+                            <div class = "col-md-2">
+                              <div class="row card" style="width: 18rem;" id="resume">
+                                <a data-toggle="modal" data-target="#Resumemodal">
+                                  <img class="card-img-top" src="./Assets/Resume/Resume.JPG" alt="Resume image">
+                                </a>
+                                <div class="card-body">
+                                  <h5 class="card-title">Resume</h5>
+                                  <p class="card-text">Here you can find my resume. Feel free to click on the image to get an expanded version of it, or click on download to download it.</p>
+                                  <a href="./Assets/Resume/Resume_JL.pdf" class="btn btn-primary" download="Jhonny_Lin_Resume.pdf">Download</a>
+                                </div>
+                              </div>
+                              <!-- Social media card -->
+                              <div class="row card" style="width: 18rem;" id = "social">
+                                <div class="card-body">
+                                  <h5 class="card-title">Find me on social media!</h5>
+                                  <a href="https://www.linkedin.com/in/jhonny-lin-2635351a0" target="_blank"><i style="font-size:24px" class="fa">&#xf08c;</i></a>
+                                  <a href="https://www.facebook.com/jhonnylin96/" target="_blank"><i style="font-size:24px" class="fa">&#xf09a;</i></a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </section>
+                    <section id="resume-modal">
+                      <!-- Modal -->
+                      <div class="modal fade" id="Resumemodal" tabindex="-1" role="dialog">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLongTitle">Jhonny Lin Resume</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <img src="./Assets/Resume/Resume.JPG" alt="Resume image" id="modalresumeimg">
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary"><a href="./Assets/Resume/Resume_JL.pdf" class="btn btn-primary" download="Jhonny_Lin_Resume.pdf">Download</a></button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </section>
             </article>
         </main>
