@@ -11,8 +11,17 @@ On my portfolio added a cards that will appear when the user clicks on the image
 Added images on the portfolio that represents some of my work.
 
 # Build status
-This is version 1.1 of the portfolio
+This is version 1.1 of the portfolio.
 
 # Resources
 The portfolio has been build using bootstrap. Bootstrap was selected due to bootstrap already having media quieries and a responsive layout. The background image used for the site has been obtained from the internet through a google search, and the images used on the about me section were obtained from my own social media site.
 
+# Screenshots
+Screenshot for the index.
+ ![index screenshot] (https://raw.githubusercontent.com/Jlin72/Jhonny_Lin_Portfolio/main/Assets/Images/Index.JPG)
+
+ Screenshot for the portfolio.
+![portfolio screenshot] (https://raw.githubusercontent.com/Jlin72/Jhonny_Lin_Portfolio/main/Assets/Images/Portfolio.JPG)
+
+Screenshot for the contact.
+![contact screenshot] (https://raw.githubusercontent.com/Jlin72/Jhonny_Lin_Portfolio/main/Assets/Images/Contact.JPG)
