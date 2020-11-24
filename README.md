@@ -18,10 +18,10 @@ The portfolio has been build using bootstrap. Bootstrap was selected due to boot
 
 # Screenshots
 Screenshot for the index.
- ![index screenshot] (https://raw.githubusercontent.com/Jlin72/Jhonny_Lin_Portfolio/main/Assets/Images/Index.JPG)
+![index screenshot](https://raw.githubusercontent.com/Jlin72/Jhonny_Lin_Portfolio/main/Assets/Images/Index.JPG)
 
  Screenshot for the portfolio.
-![portfolio screenshot] (https://raw.githubusercontent.com/Jlin72/Jhonny_Lin_Portfolio/main/Assets/Images/Portfolio.JPG)
+![portfolio screenshot](https://raw.githubusercontent.com/Jlin72/Jhonny_Lin_Portfolio/main/Assets/Images/Portfolio.JPG)
 
 Screenshot for the contact.
-![contact screenshot] (https://raw.githubusercontent.com/Jlin72/Jhonny_Lin_Portfolio/main/Assets/Images/Contact.JPG)
+![contact screenshot](https://raw.githubusercontent.com/Jlin72/Jhonny_Lin_Portfolio/main/Assets/Images/Contact.JPG)
