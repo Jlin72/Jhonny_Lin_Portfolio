@@ -61,6 +61,14 @@ img {
 #bonAppVoyageimg {
     width: 350px;
 }
+
+#burgerscreenshot {
+    width: 350px;
+}
+
+#employeescreenshot {
+    width: 350px;
+}
 @media only screen and (max-width: 400px) {
     
     .cardbutton {
