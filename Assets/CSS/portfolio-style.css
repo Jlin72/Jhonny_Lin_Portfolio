@@ -69,6 +69,11 @@ img {
 #employeescreenshot {
     width: 350px;
 }
+
+#youtwitchscreenshot {
+    width: 350px;
+}
+
 @media only screen and (max-width: 400px) {
     
     .cardbutton {
