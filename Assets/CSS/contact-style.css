@@ -3,34 +3,34 @@ body {
     background-image: url(https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 }
 
-h1 {
-    border-bottom: 2px solid grey;
-    padding: 10px;
-}
 
 main {
     border-radius: 10px;
-    height: auto;
-    border: 5px black;
-    margin-top: 80px;
-    margin-left: 60px;
-    background-color: white;
+    margin: 20px 40px 20px 20px;
+    padding: 20px 20px 20px 20px;
+    background: white;
     width: fit-content;
+    height: fit-content;
+    min-height: 400px;
+    margin-bottom: 100px;
+    clear: both;
     min-height: 400px;
     margin-bottom: 100px;
     clear: both;
 }
 
-form {
-    padding-right: 25%;
-    padding:20px 40px 20px 20px;
-    width: auto;
-    height: auto;
+h1 {
+    padding: 20px;
+    margin-left: 20px;
+}
+
+img {
+    padding: 20px;
 }
 
 .footer {
-    position: fixed;
-    bottom: 0px;
+    position: absolute;
+    bottom: auto;
     width: 100%;
     height: 60px;
     color: rgb(154, 74, 165);
@@ -39,4 +39,40 @@ form {
     margin-top: 40px;
     padding: 20px 20px 10px 20px;    
 }
+.portfoliocard {
+    height: 80%;
+    width: 80%;
+}
 
+#passwordphoto {
+    width: 350px;
+}
+
+#portfolio1link {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.cardbutton {
+    display: flex;
+}
+
+#bonAppVoyageimg {
+    width: 350px;
+}
+
+#burgerscreenshot {
+    width: 350px;
+}
+
+#employeescreenshot {
+    width: 350px;
+}
+@media only screen and (max-width: 400px) {
+    
+    .cardbutton {
+        width: 125px;
+        height: 50px;
+    }
+}
